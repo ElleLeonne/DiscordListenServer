@@ -31,7 +31,7 @@ async def subcommand(context):
     await context.respond('I am a subcommand')
 
 
-bot = hikari.GatewayBot(token="MTAxMDM2NTQ5ODY0MDMxMDM1NA.Gym_8A.wNWpkCGlm2OZ11pTmOA_EcWeSWUB_uyR8cKU8E")
+bot = hikari.GatewayBot(token="")
 
 @bot.listen(hikari.StartedEvent) #Activates when bot starts.
 async def print_message(event):
