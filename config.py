@@ -17,102 +17,102 @@ class Config:
         self.reply_ovveride = bool
 
 action_tokens = ["<|pass|>", "<|think|>"]
-keyboard_tokens = ["<0>","<1>","<2>","<3>","<4>",
+index_tokens = ["<0>","<1>","<2>","<3>","<4>",
                    "<5>","<6>","<7>","<8>","<9>"]
 special_tokens: dict = {"additional_special_tokens":action_tokens+keyboard_tokens}
 
 WHITELIST = {
 	"ServerList": {
-		744554485350924408: {
-			"Name": "Elle's Server",
+		0000000000000000: {
+			"Name": "My Server",
             "Channels": {
-				744554485350924411: 
+				0000000000000000000: 
                     {"Name":"General",
                     "Type":"Channel",
                     "Reply":False,
                     "ResponseChance": 1,
-                    "Server": 744554485350924408},
-                869292497359220777:
-                    {"Name":"Stocks",
+                    "Server": 0000000000000},
+                000000000000000000:
+                    {"Name":"General 2",
                     "Type":"Channel",
                     "Reply":False,
                     "ResponseChance": 0.05,
-                    "Server": 744554485350924408}
+                    "Server": 00000000000000000000}
 			},
 
 		},
-        937022042732126269: {
-			"Name": 'DnD & Chill',
+        000000000000000: {
+			"Name": 'DnD',
             "Channels": {
-				1079472916900626484:
-                    {"Name":"Ask Emme",
+				00000000000000000000:
+                    {"Name":"Things",
                     "Type":"Channel",
                     "Reply":False,
                     "ResponseChance": 1,
-                    "Server": 937022042732126269},
-                 937047094370373642:
+                    "Server": 00000000000000000},
+                00000000000000000000:
                     {"Name":"Off Topic",
                     "Type":"Channel",
                     "Reply":False,
                     "ResponseChance": 0.05,
-                    "Server": 937022042732126269},
-                938494804797587486:
+                    "Server": 0000000000000000000},
+                0000000000000000000:
                     {"Name":"Duel Monsters",
                     "Type":"Channel",
                     "Reply":False,
                     "ResponseChance": 0.05,
-                    "Server": 937022042732126269},
-                937122411592179813:
+                    "Server": 000000000000000000},
+                0000000000000000000:
                     {"Name":"General",
                     "Type":"Channel",
                     "Reply":False,
                     "ResponseChance": 0.05,
-                    "Server": 937022042732126269},
-                944334178873401395:
-                    {"Name":"Dungeonz n Dragoonz Memez",
+                    "Server": 000000000000000000},
+                00000000000000000:
+                    {"Name":"Memez",
                     "Type":"Channel",
                     "Reply":False,
                     "ResponseChance": 0.05,
-                    "Server": 937022042732126269}
+                    "Server": 00000000000000000}
 			}
 
 		},
-        633239257213042699: {
-            "Name": "Kotario's World",
+        000000000000000000000000: {
+            "Name": "World",
             "Channels": {
-				633239258185990169:
+				00000000000000000:
                 {"Name":"banter",
                  "Type":"Channel",
                  "Reply":False,
                  "ResponseChance": 0.05,
-                 "Server": 633239257213042699}
+                 "Server": 0000000000000000000}
         }
 	    },
-        1018154248988540939: {
-        "Name": "Rocky Rose's server",
+        00000000000000000: {
+        "Name": "server",
         "Channels": {
-			1018159343394357298:
+			00000000000000000000:
             {"Name":"general chat",
              "Type":"Channel",
              "Reply":False,
              "ResponseChance": 0.05,
-             "Server": 1018154248988540939}
+             "Server": 000000000000000000}
         }
 	    },
-        940420353136664636: {
-        "Name": "Moment's Trading",
+        0000000000000000000: {
+        "Name": "Trading",
         "Channels": {
-			940421740385935391:
+			000000000000000:
             {"Name":"Trading Floor",
              "Type":"Channel",
              "Reply":False,
              "ResponseChance": 0.05,
-             "Server": 940420353136664636}
+             "Server": 00000000000000000000}
         }
 	    },
 	},
 
-	"UserList": {166947533879377920:
+	"UserList": {0000000000000000000:
                     {"Name":"Elle",
                     "Type":"DM",
                     "Reply":False,
